@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar"> 
+            <div class="favourite-box">
+                <h2>Add to favourites</h2>
+            <p class="favourite">Save your favourite cities for quick access in the future</p>
+            <button class="add-favourites">Add to favourites</button>
+            </div>
+            <ul class="city-list">
+                <li class="city-item">
+                    <img src="./New York.png" alt="New York">
+                    <span>New York</span>
+                </li>
+                <li class="city-item">
+                    <img src="./San Fransisco.png" alt="San Francisco">
+                    <span>San Francisco</span>
+                </li>
+                <li class="city-item">
+                    <img src="./Los Angeles.png" alt="Los Angeles">
+                    <span>Los Angeles</span>
+                </li>
+                <li class="city-item">
+                    <img src="./Chicago.png" alt="Chicago">
+                    <span>Chicago</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <main class="weather-content">
+            <h1>Weather in San Francisco, California</h1>
+            <p class="time">Today - 7:45 AM</p>
+            <h3>Current Conditions</h3>
+
+            <!-- Current Conditions -->
+            <section class="current-conditions">
+                <img src="./Image 1.png" alt="Weather Image" class="weather-image">
+                <div class="temp-details">
+                    <h2>22<sup>o</sup>C</h2>
+                    <p>Sunny</p>
+                    <div class="button-group">
+                        <button class="active">Details</button>
+                        <button>Hourly</button>
+                    </div>
+                    <div class="search-container">
+                        <input type="text" placeholder="Search for a location">
+                        <button class="search-button">Search</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Weather Highlights -->
+            <section class="highlights">
+                <div class="highlight-box">
+                    <p>Humidity</p>
+                    <h3>85%</h3>
+                </div>
+                <div class="highlight-box">
+                    <p>Wind</p>
+                    <h3>3 km/h from the west</h3>
+                </div>
+            </section>
+
+            <!-- Today's Highlights -->
+            <section class="todays-highlights">
+                <h2>Today's Highlights</h2>
+                <div class="highlight-grid">
+                    <div class="highlight-card">
+                        <img src="./Image 2.png" alt="UV Index">
+                        <p>UV Index</p>
+                        <h3>5</h3>
+                    </div>
+                    <div class="highlight-card">
+                        <img src="./Image 3.png" alt="Sunrise">
+                        <p>Sunrise</p>
+                        <h3>6:57 AM</h3>
+                    </div>
+                    <div class="highlight-card">
+                        <img src="./Image 4.png" alt="Sunset">
+                        <p>Sunset</p>
+                        <h3>7:21 PM</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
